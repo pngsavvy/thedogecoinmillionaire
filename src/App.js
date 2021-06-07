@@ -4,6 +4,9 @@ import React, {useState, useEffect} from "react"
 import doge_logo from "./doge_logo.png"
 import pro from "./PRO.png"
 
+// USE THIS TO GET CHART:
+// https://codesandbox.io/s/react-stockcharts-example2-forked-vd48p?file=/public/manifest.json
+
 function App() {
   const [price, setPrice] = useState(0.0);
   const doge_coins_owned = 4005100
