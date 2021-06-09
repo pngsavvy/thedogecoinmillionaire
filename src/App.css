@@ -1,16 +1,16 @@
 .App {
   text-align: center;
-  font-size: 6vw;
   color:rgb(255, 255, 255);
   }
 
-#pro {
+/* #pro {
   padding-top: 2vw;
-}
+} */
 
-* {
+.price {
   font-size: 7vw;
 }
+
 
 #pos_price {
   color: rgb(23, 146, 23);
@@ -38,7 +38,7 @@ p {
 }
 
 #spaceing {
-  padding:10px;
+  padding:0px;
 }
 
 h3 {
@@ -53,11 +53,49 @@ h3 {
   pointer-events: none;
 }
 
+@media only screen and (min-width: 1700px){
+  #pro {
+    width: 18vw;
+    height: auto;
+  }
 
-@media only screen and (min-width: 1100px) {
+  .price{
+    font-size: 4.5vw;
+  }
+
+  #doge_logo_img {
+    width: 3.3vw;
+    height: auto;
+  }
+
+  #spaceing {
+    padding:20px;
+  }
+
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1700px){
   #pro {
     width: 20vw;
     height: auto;
+  }
+
+  .App{
+    width: 80%;
+    margin:auto;
+  }
+
+  .price {
+    font-size: 4.5vw;
+  }
+
+  #doge_logo_img {
+    width: 3.3vw;
+    height: auto;
+  }
+
+  #spaceing {
+    padding:15px;
   }
 }
 
@@ -72,25 +110,28 @@ h3 {
 
 @media only screen and (min-width:750px) and (max-width: 950px) {
   #pro {
-    width: 50vw;
+    width: 45vw;
     height: auto;
   }
 }
 
 @media only screen and (min-width:550px)  and (max-width: 750px) {
   #pro {
-    width: 76%;
+    width: 65%;
     height: auto;
   }
 }
 
 @media only screen and (max-width: 550px) {
   #pro {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 
   * {
     font-size: 9vw
   }
+
+  
+
 }

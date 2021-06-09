@@ -1,13 +1,19 @@
 body {
   background: #ffea95;
   /* background: linear-gradient(0deg, rgba(109, 88, 3, 0.288) 0%, rgb(56, 43, 2) 10%, rgba(0,0,0,1) 100%); */
-  height: 100vh;
+  /* height: 100vh; */
   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#Navbar {
+  justify-content: center;
+  padding-top: 100px;
+  
 }
 
 /* a { */
@@ -18,14 +24,13 @@ body {
 #social_tag {
   text-decoration: none;
 
-
   /* color: black; */
   /* border-bottom: 2px solid black; */
 }
 
 #social_tag:hover{
   text-decoration:underline;
-  text-decoration-color: black;
+  text-decoration-color: #cea606;
   /* border-bottom:2px solid black; */
 }
 
