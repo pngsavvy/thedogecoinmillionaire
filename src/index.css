@@ -10,7 +10,7 @@ body {
 
 .standard-font {
   color: rgb(65, 65, 65);
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 #Navbar {

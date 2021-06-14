@@ -16,10 +16,10 @@ li {
     padding-left: 1vw;
   }
 
-ul {
+/* ul {
     width: 70%;
     margin: auto;
-}
+} */
 
   a {
     font-size: 2.5vw;
@@ -32,7 +32,7 @@ ul {
     text-decoration-color: #cea606;
   }
 
-  @media only screen and (max-width: 790px) {
+  @media only screen and (max-width: 800px) {
     a {
         font-size: 3.6vw;
         padding-left: .6vw;
@@ -57,12 +57,14 @@ ul {
 
   } 
 
-   @media only screen and (min-width: 950px) {
+   @media only screen and (min-width: 800px) and (max-width: 1500px){
     
     a {
         font-size: 1.5vw;
-        padding-right: 1.5vw;
-        padding-left: 1.5vw;
+        letter-spacing: 8px;
+        padding-right: .5vw; 
+        padding-left: .5vw;
+        font-weight: 400;
     }
    
     .nav{
@@ -70,3 +72,18 @@ ul {
         text-align: center;
     }
     }
+
+    @media only screen and (min-width: 1500px)  {
+        a {
+            font-size: 1.5vw;
+            letter-spacing: 12px;
+            padding-right: 1.5vw; 
+            padding-left: 1.5vw;
+            font-weight: 400;
+        }
+        .nav{
+            width: 100%;
+            text-align: center;
+        }
+    }
+

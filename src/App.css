@@ -2,14 +2,9 @@
   text-align: center;
   }
 
-/* #pro {
-  padding-top: 2vw;
-} */
-
 .price {
   font-size: 7vw;
 }
-
 
 #pos_price {
   color: rgb(23, 146, 23);
@@ -51,7 +46,7 @@ h3 {
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
@@ -71,7 +66,7 @@ h3 {
   }
 
   #spaceing {
-    padding:20px;
+    padding:15px;
   }
 
 }
@@ -81,11 +76,11 @@ h3 {
     width: 20vw;
     height: auto;
   }
-
+/* 
   .App{
-    width: 80%;
+    width: 80%; 
     margin:auto;
-  }
+  } */
 
   .price {
     font-size: 4.5vw;
@@ -110,7 +105,7 @@ h3 {
 
 @media only screen and (min-width:750px) and (max-width: 950px) {
   #pro {
-    width: 45vw;
+    width: 40vw;
     height: auto;
   }
 }
