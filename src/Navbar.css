@@ -1,5 +1,5 @@
 * {
-    padding-top: 0px ;
+    padding-top: 3px ;
     margin-top: 0px ;
 }
 
@@ -34,55 +34,39 @@ ul {
 
   @media only screen and (max-width: 790px) {
     a {
-        font-size: 2.55vw;
-        text-align: center !important;
+        font-size: 3.6vw;
+        padding-left: .6vw;
+        padding-right: .6vw;
     }
 
     .nav{
+        float:center;
         width: 100%;
         text-align: center;
         padding-right: 100px;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-        margin:0px !important;
-        /* background-color: blue !important; */
-
+        padding-left: 1px;
+        padding-right: 1px;
     }
+
+    * { margin:0; padding:0; } 
+
+        ul {
+            width: 100%;
+            margin: auto;
+        }
 
   } 
 
    @media only screen and (min-width: 950px) {
-        a {
-            font-size: 1.5vw;
-            padding-right: 1.5vw;
-            padding-left: 1.5vw;
-        }
-       
-        .nav{
-            width: 100%;
-            text-align: center;
-        }
-       
-    }
-
- 
-
-
-/* 
-    #menu-outer {
-        height: 84px;
-    }
     
-    .table {
-        display: table;   
-        margin: 0 auto;
+    a {
+        font-size: 1.5vw;
+        padding-right: 1.5vw;
+        padding-left: 1.5vw;
     }
-    
-    ul#horizontal-list {
-        min-width: 696px;
-        list-style: none;
-        padding-top: 20px;
-        }
-        ul#horizontal-list li {
-            display: inline;
-        } */
+   
+    .nav{
+        width: 100%;
+        text-align: center;
+    }
+    }

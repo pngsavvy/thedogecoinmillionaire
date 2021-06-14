@@ -30,70 +30,38 @@ function App() {
     return (<div>Loading...</div>)
   } else {
 
+    var portfolio_value = <span></span>
     if(price >= 1000000){
-      return (
-        <div class="App">
-      
-      <div id="spaceing"></div>
-
-      <a id="social_tag" href="https://www.youtube.com/channel/UCvRP2JVdPZxPqdLFsv_VTmQ" target="_blank">
-        {/* <img id="pro" src={pro}/> */}
-
-        <img id="pro" src={pro1}
-          onMouseOver={e => (e.currentTarget.src = pro3)}
-          onMouseOut={e => (e.currentTarget.src = pro1)}
-      //  onMouseOut={this.src = pro2} 
-       />
-
-      <br/>
-      <p>@ProTheDoge (YT)</p>
-      </a>
-      {/* <p> <span id="doge_count"><a href="https://www.youtube.com/channel/UCvRP2JVdPZxPqdLFsv_VTmQ" target="_blank">@ProTheDoge's</a></span> Portfolio</p> */}
-      
-      <div id="spaceing"></div>
-      
-      <span class="price" id="doge_count">{formated_coin_count} </span> 
-      <span>  </span>
-      <img id="doge_logo_img" src={doge_logo}/>
-
-      <span class="price"> = </span>
-      
-      <span class="price" id="pos_price">${price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</span>
-
-      {/* <h3>Dogecoin Millionair</h3> */}
-      
-    </div>
-      )
+      portfolio_value = <span class="price" id="pos_price">${price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</span>
     } else {
-      return (
-      <div class="App">
-
-      <a id="social_tag" href="https://www.youtube.com/channel/UCvRP2JVdPZxPqdLFsv_VTmQ" target="_blank">
-        <img id="pro" src={pro1}/>
-      <br/>
-      <p>@ProTheDoge</p>
-      </a>
-      {/* <p> <span id="doge_count"><a href="https://www.youtube.com/channel/UCvRP2JVdPZxPqdLFsv_VTmQ" target="_blank">@ProTheDoge's</a></span> Portfolio</p> */}
-      
-      <div id="spaceing"></div>
-      
-      <span class="price" id="doge_count">{formated_coin_count} </span> 
-      <span>  </span>
-      <img id="doge_logo_img" src={doge_logo}/>
-
-      <span class="price"> = </span>
-      
-      <span class="price" id="neg_price">${price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</span>
-
-      {/* <h3>Dogecoin Millionair</h3> */}
-      
-    </div>
-      )
+      portfolio_value = <span class="price" id="neg_price">${price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</span>
     }
 
-    
-  }
+      return (
+        <div class="App">      
+        <div id="spaceing"></div>
   
+        {/* Face */}
+        <a id="social_tag" href="https://www.youtube.com/channel/UCvRP2JVdPZxPqdLFsv_VTmQ" target="_blank">
+          <img id="pro" src={pro3}
+            onMouseOver={e => (e.currentTarget.src = pro1)}
+            onMouseOut={e => (e.currentTarget.src = pro3)}
+         />
+        <br/>
+        <p class="standard-font prothedoge">@ProTheDoge (YT)</p>
+        </a>
+        
+        <div id="spaceing"></div>
+        
+        {/* Equation */}
+        <span class="price" id="doge_count">{formated_coin_count} </span> 
+        <span>  </span>
+        <img id="doge_logo_img" src={doge_logo}/> 
+        <span class="price equals"> = </span>  
+        {portfolio_value}
+      </div>
+      )
+  }
 }
 
 export default App;
