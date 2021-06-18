@@ -73,7 +73,7 @@ h3 {
 
 @media only screen and (min-width: 1100px) and (max-width: 1700px){
   #pro {
-    width: 20vw;
+    width: 18vw;
     height: auto;
   }
 /* 
@@ -98,8 +98,16 @@ h3 {
 
 @media only screen and (min-width:950px) and (max-width: 1100px) {
   #pro {
-    width: 30vw;
+    width: 18vw;
     height: auto;
+  }
+
+  .price {
+    font-size: 6vw;
+  }
+
+  #spaceing {
+    padding:0px;
   }
 }
 
