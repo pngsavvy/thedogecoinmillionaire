@@ -76,14 +76,9 @@ h3 {
     width: 18vw;
     height: auto;
   }
-/* 
-  .App{
-    width: 80%; 
-    margin:auto;
-  } */
 
   .price {
-    font-size: 4.5vw;
+    font-size: 6vw;
   }
 
   #doge_logo_img {
@@ -92,7 +87,7 @@ h3 {
   }
 
   #spaceing {
-    padding:15px;
+    padding:5px;
   }
 }
 
