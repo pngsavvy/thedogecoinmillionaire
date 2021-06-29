@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/thedogecoinmillionaire/static/css/main.bc00b0c8.chunk.css",
+    "main.js": "/thedogecoinmillionaire/static/js/main.5a6982d2.chunk.js",
+    "main.js.map": "/thedogecoinmillionaire/static/js/main.5a6982d2.chunk.js.map",
+    "runtime-main.js": "/thedogecoinmillionaire/static/js/runtime-main.c5e94230.js",
+    "runtime-main.js.map": "/thedogecoinmillionaire/static/js/runtime-main.c5e94230.js.map",
+    "static/css/2.8561ba5d.chunk.css": "/thedogecoinmillionaire/static/css/2.8561ba5d.chunk.css",
+    "static/js/2.fd53d92b.chunk.js": "/thedogecoinmillionaire/static/js/2.fd53d92b.chunk.js",
+    "static/js/2.fd53d92b.chunk.js.map": "/thedogecoinmillionaire/static/js/2.fd53d92b.chunk.js.map",
+    "static/js/3.ef8bd878.chunk.js": "/thedogecoinmillionaire/static/js/3.ef8bd878.chunk.js",
+    "static/js/3.ef8bd878.chunk.js.map": "/thedogecoinmillionaire/static/js/3.ef8bd878.chunk.js.map",
+    "index.html": "/thedogecoinmillionaire/index.html",
+    "static/css/2.8561ba5d.chunk.css.map": "/thedogecoinmillionaire/static/css/2.8561ba5d.chunk.css.map",
+    "static/css/main.bc00b0c8.chunk.css.map": "/thedogecoinmillionaire/static/css/main.bc00b0c8.chunk.css.map",
+    "static/js/2.fd53d92b.chunk.js.LICENSE.txt": "/thedogecoinmillionaire/static/js/2.fd53d92b.chunk.js.LICENSE.txt",
+    "static/media/doge_logo.a9424efa.png": "/thedogecoinmillionaire/static/media/doge_logo.a9424efa.png",
+    "static/media/font-awesome.min.css": "/thedogecoinmillionaire/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/pro_1.1840c5b3.png": "/thedogecoinmillionaire/static/media/pro_1.1840c5b3.png",
+    "static/media/pro_2.74f8cf2b.png": "/thedogecoinmillionaire/static/media/pro_2.74f8cf2b.png",
+    "static/media/pro_3.003c465b.png": "/thedogecoinmillionaire/static/media/pro_3.003c465b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5e94230.js",
+    "static/css/2.8561ba5d.chunk.css",
+    "static/js/2.fd53d92b.chunk.js",
+    "static/css/main.bc00b0c8.chunk.css",
+    "static/js/main.5a6982d2.chunk.js"
+  ]
+}
