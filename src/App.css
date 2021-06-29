@@ -50,6 +50,18 @@ h3 {
   pointer-events: none;
 }
 
+.signature {
+  position: fixed;
+  bottom: 5px;
+  left: 0px;
+  font-size: 1vw;
+}
+
+.signature-name{
+  letter-spacing: 0;
+  font-size: 1vw;
+}
+
 @media only screen and (min-width: 1700px){
   #pro {
     width: 18vw;
@@ -73,12 +85,12 @@ h3 {
 
 @media only screen and (min-width: 1100px) and (max-width: 1700px){
   #pro {
-    width: 18vw;
+    width: 20vw;
     height: auto;
   }
 
   .price {
-    font-size: 6vw;
+    font-size: 4.5vw;
   }
 
   #doge_logo_img {
@@ -87,22 +99,14 @@ h3 {
   }
 
   #spaceing {
-    padding:0px;
+    padding:15px;
   }
 }
 
 @media only screen and (min-width:950px) and (max-width: 1100px) {
   #pro {
-    width: 18vw;
+    width: 30vw;
     height: auto;
-  }
-
-  .price {
-    font-size: 6vw;
-  }
-
-  #spaceing {
-    padding:0px;
   }
 }
 
@@ -123,8 +127,9 @@ h3 {
 /* Most phones */
 @media only screen and (max-width: 550px) {
   #pro {
-    width: 80%;
+    width: 65%;
     height: auto;
+    padding-top: 17vw;
   }
 
   .prothedoge {
@@ -135,4 +140,11 @@ h3 {
     font-size: 9vw
   }
 
+  .signature {
+    font-size: 2.5vw;
+  }
+  
+  .signature-name{
+    font-size: 2.5vw;
+  }
 }

@@ -31,21 +31,28 @@ function App() {
   } else {
 
     var portfolio_value = <span></span>
+    var face1;
+    var face2;
+
     if(price >= 1000000){
       portfolio_value = <span class="price" id="pos_price">${price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</span>
+      face1 = pro3;
+      face2 = pro1;  
     } else {
       portfolio_value = <span class="price" id="neg_price">${price.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</span>
+      face1 = pro1;
+      face2 = pro3;  
     }
 
       return (
         <div class="App">      
-        <div id="spaceing"></div>
+        <div id="spaceing" ></div>
   
         {/* Face */}
         <a id="social_tag" href="https://www.youtube.com/channel/UCvRP2JVdPZxPqdLFsv_VTmQ" target="_blank">
-          <img id="pro" src={pro3}
-            onMouseOver={e => (e.currentTarget.src = pro1)}
-            onMouseOut={e => (e.currentTarget.src = pro3)}
+          <img id="pro" src={face1}
+            onMouseOver={e => (e.currentTarget.src = face2)}
+            onMouseOut={e => (e.currentTarget.src = face1)}
          />
         <br/>
         <p class="standard-font prothedoge">@ProTheDoge (YT)</p>
@@ -59,6 +66,7 @@ function App() {
         <img id="doge_logo_img" src={doge_logo}/> 
         <span class="price equals"> = </span>  
         {portfolio_value}
+        <div class="signature"><a class="signature-name" href="https://pngsavvy.github.io/" target="_blank">Created by: Zachary Beall</a></div>
       </div>
       )
   }
