@@ -13,7 +13,7 @@ import pro3 from "./pro_3.png"
 
 function App() {
   const [price, setPrice] = useState(0.0);
-  const doge_coins_owned = 4005100
+  const doge_coins_owned = 4206969
   const formated_coin_count = doge_coins_owned.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   useEffect(() => {
     get_price()
