@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/thedogecoinmillionaire/static/css/main.3f03d694.chunk.css",
-    "main.js": "/thedogecoinmillionaire/static/js/main.4d3499cd.chunk.js",
-    "main.js.map": "/thedogecoinmillionaire/static/js/main.4d3499cd.chunk.js.map",
+    "main.css": "/thedogecoinmillionaire/static/css/main.bc00b0c8.chunk.css",
+    "main.js": "/thedogecoinmillionaire/static/js/main.889a0bb9.chunk.js",
+    "main.js.map": "/thedogecoinmillionaire/static/js/main.889a0bb9.chunk.js.map",
     "runtime-main.js": "/thedogecoinmillionaire/static/js/runtime-main.c5e94230.js",
     "runtime-main.js.map": "/thedogecoinmillionaire/static/js/runtime-main.c5e94230.js.map",
     "static/css/2.8561ba5d.chunk.css": "/thedogecoinmillionaire/static/css/2.8561ba5d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.ef8bd878.chunk.js.map": "/thedogecoinmillionaire/static/js/3.ef8bd878.chunk.js.map",
     "index.html": "/thedogecoinmillionaire/index.html",
     "static/css/2.8561ba5d.chunk.css.map": "/thedogecoinmillionaire/static/css/2.8561ba5d.chunk.css.map",
-    "static/css/main.3f03d694.chunk.css.map": "/thedogecoinmillionaire/static/css/main.3f03d694.chunk.css.map",
+    "static/css/main.bc00b0c8.chunk.css.map": "/thedogecoinmillionaire/static/css/main.bc00b0c8.chunk.css.map",
     "static/js/2.fd53d92b.chunk.js.LICENSE.txt": "/thedogecoinmillionaire/static/js/2.fd53d92b.chunk.js.LICENSE.txt",
     "static/media/doge_logo.a9424efa.png": "/thedogecoinmillionaire/static/media/doge_logo.a9424efa.png",
     "static/media/font-awesome.min.css": "/thedogecoinmillionaire/static/media/fontawesome-webfont.f691f37e.woff",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.c5e94230.js",
     "static/css/2.8561ba5d.chunk.css",
     "static/js/2.fd53d92b.chunk.js",
-    "static/css/main.3f03d694.chunk.css",
-    "static/js/main.4d3499cd.chunk.js"
+    "static/css/main.bc00b0c8.chunk.css",
+    "static/js/main.889a0bb9.chunk.js"
   ]
 }
